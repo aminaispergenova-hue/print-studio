@@ -10,7 +10,7 @@ if [ "$1" = "test" ]; then
   exit 0
 fi
 
-emcc -std=c++17 -O2 -fexceptions -I src src/*.cpp -lembind \
+em++ -std=c++17 -O2 -fexceptions -I src src/*.cpp -lembind \
   -sMODULARIZE=1 -sEXPORT_NAME=createStudioModule -sALLOW_MEMORY_GROWTH=1 \
   -o web/studio.js
 echo "Done: web/studio.js and web/studio.wasm"
