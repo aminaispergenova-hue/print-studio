@@ -1,0 +1,34 @@
+{
+  "comment": "All prices are in tenge. Change a number here and reload the page - no C++ rebuild is needed.",
+
+  "design": {
+    "magazinePerPage": 1000,
+    "newspaperPerPage": 1000,
+    "cardPerSide": 800,
+    "invitationPerSide": 800,
+    "poster": 2000
+  },
+
+  "printPerSide": {
+    "A6": 150,
+    "A5": 200,
+    "A4": 300,
+    "A3": 500,
+    "A2": 900
+  },
+
+  "paperPerSheet": {
+    "glossy": 0,
+    "kraft": 100,
+    "matte": -100
+  },
+
+  "envelope": 800,
+
+  "discounts": [
+    { "fromQuantity": 1,  "percent": 0 },
+    { "fromQuantity": 5,  "percent": 5 },
+    { "fromQuantity": 10, "percent": 10 },
+    { "fromQuantity": 30, "percent": 20 }
+  ]
+}

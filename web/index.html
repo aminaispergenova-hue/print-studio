@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Print Design Studio — Customers and Orders</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Print Design Studio</div>
+    <nav>
+      <a href="#/customers" data-nav="customers">Customers</a>
+      <a href="#/orders" data-nav="orders">All orders</a>
+    </nav>
+  </header>
+
+  <main id="app">
+    <p class="loading">Loading the C++ module…</p>
+  </main>
+
+  <footer class="footer">
+    <span>All calculations are done by C++ (WebAssembly) in the browser.</span>
+    <a id="source-link" href="#" target="_blank" hidden>Source code on GitHub</a>
+    <button id="reset-demo" class="link-button" type="button">Restore demo data</button>
+  </footer>
+
+  <!-- studio.js and studio.wasm are made by build.sh from the C++ code in src/ -->
+  <script src="studio.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

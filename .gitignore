@@ -1,0 +1,5 @@
+# Built files: GitHub Actions creates them again on every upload
+web/studio.js
+web/studio.wasm
+tests/test_prices
+.DS_Store

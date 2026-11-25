@@ -1,0 +1,89 @@
+{
+  "nextCustomerId": 5,
+  "nextOrderId": 1006,
+  "customers": [
+    {
+      "id": 1,
+      "name": "Aigerim Saparova",
+      "contact": "+7 701 123 45 67",
+      "orders": [
+        {
+          "id": 1001,
+          "title": "Magazine for Mum's 60th birthday",
+          "dueDate": "2026-12-05",
+          "createdDate": "2026-11-10",
+          "items": [
+            { "type": "magazine", "quantity": 2, "stage": 2,
+              "options": { "title": "Mum at 60", "pages": "16", "size": "A4", "paper": "glossy" } }
+          ]
+        },
+        {
+          "id": 1002,
+          "title": "Wedding of Aigerim and Daniyar",
+          "dueDate": "2027-02-01",
+          "createdDate": "2026-11-18",
+          "items": [
+            { "type": "invitation", "quantity": 60, "stage": 3,
+              "options": { "eventName": "Wedding, 14 February", "sides": "2", "size": "A5", "paper": "kraft" } },
+            { "type": "envelope", "quantity": 60, "stage": 0,
+              "options": { "note": "Kraft, for the invitations" } },
+            { "type": "card", "quantity": 60, "stage": 0,
+              "options": { "kind": "guest", "guestNames": "", "sides": "1", "size": "A6", "paper": "kraft" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Aliya Nurlanova",
+      "contact": "@aliya.art",
+      "orders": [
+        {
+          "id": 1003,
+          "title": "Posters for a coffee shop",
+          "dueDate": "2026-12-01",
+          "createdDate": "2026-11-20",
+          "items": [
+            { "type": "poster", "quantity": 3, "stage": 1,
+              "options": { "theme": "Winter menu", "size": "A2", "paper": "matte" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Daniyar Akhmetov",
+      "contact": "+7 777 555 12 34",
+      "orders": [
+        {
+          "id": 1004,
+          "title": "Newspaper for the company's anniversary",
+          "dueDate": "2026-11-28",
+          "createdDate": "2026-11-05",
+          "items": [
+            { "type": "newspaper", "quantity": 40, "stage": 4,
+              "options": { "title": "10 years together", "pages": "8", "size": "A3", "paper": "matte" } }
+          ]
+        },
+        {
+          "id": 1005,
+          "title": "Dinner for partners",
+          "dueDate": "2026-10-15",
+          "createdDate": "2026-10-01",
+          "items": [
+            { "type": "card", "quantity": 25, "stage": 5,
+              "options": { "kind": "menu", "guestNames": "", "sides": "2", "size": "A5", "paper": "glossy" } },
+            { "type": "card", "quantity": 25, "stage": 5,
+              "options": { "kind": "thanks", "guestNames": "", "sides": "1", "size": "A6", "paper": "kraft" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Maria Kim",
+      "contact": "@maria.kim",
+      "orders": []
+    }
+  ]
+}
